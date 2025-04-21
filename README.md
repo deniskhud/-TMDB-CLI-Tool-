@@ -44,9 +44,7 @@ Once you have your API key, replace the `KEY_API` constant in the code with your
 
 ```cpp
 const string KEY_API = "your_api_key_here";
-
-
-
+```
 
 ## Usage
 
@@ -56,3 +54,5 @@ To use this tool, compile the code and run the executable from the command line 
 - **popular**: Fetches and displays the most popular movies.
 - **top**: Fetches and displays the top-rated movies.
 - **upcoming**: Fetches and displays movies that will be released soon.
+
+[project URL](https://roadmap.sh/projects/tmdb-cli)
