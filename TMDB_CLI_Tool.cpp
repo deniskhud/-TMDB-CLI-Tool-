@@ -5,9 +5,7 @@
 #include <json/json.h> 
 using namespace std;
 
-
-const string KEY_API = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMGM5ZjNiMWVkMTIxZDQyZGFjMmIzZGQ5ZjUxOThjZSIsIm5iZiI6MTc0NTIzMDM2Mi4xNjcsInN1YiI6IjY4MDYxYTFhMDU5ZmJjZWNmNmFhYzJhNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ewRIAwZtfEXSczLRA-uakozN0nfetZRiEv1aLkV1bSY";
-
+const string KEY_API = "your_api_key_here";
 
 size_t writeCallBack(void* contest, size_t size, size_t nmemb, string* output) {
     size_t totalSize = size * nmemb;
